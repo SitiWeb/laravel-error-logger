@@ -1,0 +1,28 @@
+{
+    "name": "SitiWeb/laravel-error-logger",
+    "description": "A Laravel package for logging errors to a central API.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Roberto\\LaravelErrorLogger\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendorname\\ErrorLogger\\ErrorLoggerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Roberto Guagliardo",
+            "email": "roberto@sitiweb.nl"
+        }
+    ]
+}
